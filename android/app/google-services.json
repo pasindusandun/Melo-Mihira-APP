@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646727871420",
+    "project_id": "music-player-app-80c5a",
+    "storage_bucket": "music-player-app-80c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646727871420:android:658b18b925df4cc3d399b9",
+        "android_client_info": {
+          "package_name": "com.example.optimum_music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646727871420-9gu99hrr5hk4cac1cejh650quhc06rbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.optimum_music",
+            "certificate_hash": "3bf1a25d3ed3e3b2c6320c5e4d9ffcb75f891edf"
+          }
+        },
+        {
+          "client_id": "646727871420-8709lnpde9jbc6geoek02eacc9skpl12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtYpwcE9JvNvzoLIf721eY6Ku_EKWA7XE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646727871420-4rjgtpt8moot4l6qgtck4urmmaokf81e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

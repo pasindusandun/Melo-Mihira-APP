@@ -58,8 +58,8 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: onTap,
         borderRadius: BorderRadius.circular(30),
         child: Container(
-          height: _size.height * 0.08,
-          width: _size.width * 0.4,
+          height: _size.height * 0.2,
+          width: _size.width * 0.5,
           decoration: BoxDecoration(
               color: Colors.transparent,
               borderRadius: BorderRadius.circular(30)),
@@ -97,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         return Container(
-          height: size.height * 0.2,
+          height: size.height * 0.6,
           color: Colors.white,
           child: Center(
             child: Padding(

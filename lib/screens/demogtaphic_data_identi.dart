@@ -71,11 +71,11 @@ class _demoDataIdenState extends State<demoDataIden>
             child: Column(
                 children: [
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   AppLogo(),
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   Text(
                     'Demographic data \n identification',
@@ -85,7 +85,7 @@ class _demoDataIdenState extends State<demoDataIden>
                         fontSize: _size.width * 0.05),
                   ),
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   Text(
                     'identified Age',
@@ -100,7 +100,7 @@ class _demoDataIdenState extends State<demoDataIden>
                         fontSize: _size.width * 0.05),
                   ),
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   Text(
                     'identified Gender',
@@ -113,7 +113,7 @@ class _demoDataIdenState extends State<demoDataIden>
                         fontWeight: FontWeight.w500,
                         fontSize: _size.width * 0.05),),
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   Text(
                     'identified Location',
@@ -126,7 +126,7 @@ class _demoDataIdenState extends State<demoDataIden>
                         fontWeight: FontWeight.w500,
                         fontSize: _size.width * 0.05),),
                   SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   Text(
                       'if you not statisfied with the automatic predction please change by cliking the edit button',
@@ -136,7 +136,7 @@ class _demoDataIdenState extends State<demoDataIden>
                         fontSize: _size.width * 0.03,
                         color: Colors.grey),),
                          SizedBox(
-                    height: _size.height * 0.05,
+                    height: _size.height * 0.03,
                   ),
                   ElevatedButton.icon(
                     onPressed: () {

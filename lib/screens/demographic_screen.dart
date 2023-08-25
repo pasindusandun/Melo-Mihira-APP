@@ -51,7 +51,7 @@ class _DemographicScreenState extends State<DemographicScreen> {
                     Column(
                       children: [
                         Text(
-                          'Identified Age',
+                          'Age',
                           style: _textTheme.bodyText2!.copyWith(
                               fontWeight: FontWeight.w500,
                               fontSize: _size.width * 0.035),
@@ -73,7 +73,7 @@ class _DemographicScreenState extends State<DemographicScreen> {
                     Column(
                       children: [
                         Text(
-                          'Identified Gender',
+                          'Gender',
                           style: _textTheme.bodyText2!.copyWith(
                               fontWeight: FontWeight.w500,
                               fontSize: _size.width * 0.035),
@@ -95,7 +95,7 @@ class _DemographicScreenState extends State<DemographicScreen> {
                     Column(
                       children: [
                         Text(
-                          'Identified Ethnicity',
+                          'Ethnicity',
                           style: _textTheme.bodyText2!.copyWith(
                               fontWeight: FontWeight.w500,
                               fontSize: _size.width * 0.035),
@@ -178,13 +178,13 @@ class _DemographicScreenState extends State<DemographicScreen> {
                                       children: [
                                       Text(widget.songList[i]['name'],
                                       style: _textTheme.caption!.copyWith(
-                              fontWeight: FontWeight.w800,
+                              fontWeight: FontWeight.w300,
                               // fontSize: _size.width * 0.045
                               ),
                               textAlign: TextAlign.start),
                                       Text(widget.songList[i]['singer'],
                                       style: _textTheme.caption!.copyWith(
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w100,
                               fontSize: _size.width * 0.03),
                               // textAlign: TextAlign.start
                               ),

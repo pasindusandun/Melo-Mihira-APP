@@ -156,8 +156,28 @@ class _ImageResponseScreenState extends State<ImageResponseScreen>
       //   "gender": myProvider.user['gender']
       // } as Demographic;
 
+      int age = int.parse(myProvider.user['age']); 
+      
+      int roundedUp=0;
+      int roundedDown = (age ~/ 10) * 10;
+      if(roundedDown==30|| roundedDown==40){
+        roundedDown=30;
+        roundedUp = 50;
+      }
+      else if(roundedDown>=50){
+       roundedDown=50;
+       roundedUp=100;
+      }
+      else{
+        roundedUp = roundedDown +10;
+      }
+      
+      print('roundedDown ${roundedDown}');
+      print('roundedDown ${roundedUp}');
+
       FirebaseFirestore.instance
-          .collection('demographic/Male/30')
+          .collection('demographic/${myProvider.user['gender']}/${roundedDown}-${roundedUp}')
+          // .collection('demographic/male/30')
           .get()
           .then((QuerySnapshot querySnapshot) {
         querySnapshot.docs.forEach((doc) {
